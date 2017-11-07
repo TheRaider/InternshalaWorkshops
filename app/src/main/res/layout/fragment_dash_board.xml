@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internshaala.internshalaworkshops.WorkshopsFragment"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvDashboard">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llNoWorkshops"
+        android:gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_workshops_blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Workshops Applied Yet\n Click On to Workshops Navigation item \nto browse and apply to workshops"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

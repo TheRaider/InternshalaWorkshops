@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/splash_layout">
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="IS Workshops"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_gravity="top|center"
+        />
+
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_progress"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorPrimary"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="125dp"
+        android:visibility="visible"
+        />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
